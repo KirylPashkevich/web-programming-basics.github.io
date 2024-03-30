@@ -64,7 +64,6 @@ p {
   height: 453px;
   top: 267px;
   left: 120px;
-  background-color: salmon;  
 }
 .page1-middle-top-text{
   width: 645px;
@@ -113,9 +112,11 @@ p {
 .page2{
   position: relative;
   margin: auto auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 1200px;
   height: 74px;
-  top: 20px;
+  /* top: 20px; */
   background-color: white;
 }
 .page2-1{
@@ -147,10 +148,11 @@ p {
 }
 .page3{
   position:relative;
+  margin-top: 20px;
   margin: auto;
   width: 1440px;
   height: 709px;
-  top: 40px;
+  /* top: 40px; */
   background-color:rgba(143, 76, 23, 0.08);
 }
 .page3-middle{
@@ -159,7 +161,6 @@ p {
   height: 309px;
   top:200px;
   left: 120px;
-  background-color: aqua;
 }
 .page3-middle-top-text{
   position: absolute;
@@ -196,4 +197,11 @@ p {
   top: 253px;
   background: linear-gradient(45deg, #f9cddc, #d3d6db, #c4ecb3, #f3e79d);
   animation: effect 3s infinite alternate;
+}
+.page4{
+  position: relative;
+  margin: auto;
+  width: 1440px;
+  height: 829px;
+  background-color: black;
 }
