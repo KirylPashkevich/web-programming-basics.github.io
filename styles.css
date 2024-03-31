@@ -22,12 +22,34 @@ span,
 p {
   font-family: "Roboto";
 }
+.page1-middle-botton{
+  position: absolute;
+  top: 401px;
+  width: 197px;
+  height: 56px;
+  background: #DD9D4C;
+  border-radius: 4px;
+  
+}
+.page3-botton{
+  position: absolute;
+  width: 197px;
+  height: 56px;
+  top: 253px;
+  background: linear-gradient(45deg, #f9cddc, #d3d6db, #c4ecb3, #f3e79d);
+  animation: effect 3s infinite alternate;
+}
+.page3-middle-botton-text{
+  position: absolute;
+  margin: auto;
 
-/* body {
-  height: 100vh;
-  width: 100vh;
-  background-color: black;
-} */
+  left: 40px;
+  color: white;
+  size: 16px;
+  line-height: 56px;
+  letter-spacing: 0.32px;
+}
+
 .page1 {
   margin: auto auto;
   background-image: url(img/page1-background.png);
@@ -181,6 +203,7 @@ p {
   size:16px;
   line-height: 27.2px;
   letter-spacing: 0.42px;
+  color:  rgba(26, 8, 0, 0.7);
 }
 .page3-img{
   position: absolute;
@@ -190,30 +213,69 @@ p {
   left:600px;
   border-radius: 8px;
 }
-.page3-botton{
-  position: absolute;
-  width: 197px;
-  height: 56px;
-  top: 253px;
-  background: linear-gradient(45deg, #f9cddc, #d3d6db, #c4ecb3, #f3e79d);
-  animation: effect 3s infinite alternate;
-}
-.page3-middle-boton-text{
-  position: absolute;
-  margin: auto;
-
-  left: 40px;
-  color: white;
-  size: 16px;
-  line-height: 56px;
-  letter-spacing: 0.32px;
-}
 .page4{
   position: relative;
   margin: auto;
   width: 1440px;
   height: 829px;
-  background-color: black;
+  background-color: rgba(143, 76, 23, 0.04);
+}
+.page4-left-img{
+  position: relative;
+  width: 776px;
+  height: 830px;
+  top: 0px;
+  left: 15px
+}
+.page4-right{
+  position: absolute;
+  width: 480px;
+  height: 309px;
+  top:270px;
+  left: 840px;
+  /* background: linear-gradient(45deg, #f9cddc, #d3d6db, #c4ecb3, #f3e79d); */
+  
+}
+.page4-top-right-text{
+  position: absolute;
+  margin-top: 0px;
+  width: 478px;
+  height: 112px;
+  top:-6px;
+  font-size: 45px;
+  line-height: 56px;
+  color: rgba(26, 8, 0, 1);
+}
+.page4-right-text{
+  position: absolute;
+  margin-top: 0px;
+  height: 82px;
+  top:137px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27.2px;
+  letter-spacing: 0.42px;
+}
+.page4-botton{
+  position: absolute;
+  width: 197px;
+  height: 56px;
+  top: 253px;
+  border-radius: 4px;
+  background: rgba(221, 157, 76, 1);
+
 
 }
+.page4-botton-text{
+  position: absolute;
+  margin: auto;
+  width: 130px;
+  height: 56px;
+  left: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 56px;
+  letter-spacing: 0.32px;
+  color: rgba(255, 255, 255, 1);
 
+}
