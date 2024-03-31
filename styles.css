@@ -198,14 +198,6 @@ p {
   background: linear-gradient(45deg, #f9cddc, #d3d6db, #c4ecb3, #f3e79d);
   animation: effect 3s infinite alternate;
 }
-.page4{
-  position: relative;
-  margin: auto;
-  width: 1440px;
-  height: 829px;
-  background-color: black;
-
-}
 .page3-middle-boton-text{
   position: absolute;
   margin: auto;
@@ -216,3 +208,12 @@ p {
   line-height: 56px;
   letter-spacing: 0.32px;
 }
+.page4{
+  position: relative;
+  margin: auto;
+  width: 1440px;
+  height: 829px;
+  background-color: black;
+
+}
+
