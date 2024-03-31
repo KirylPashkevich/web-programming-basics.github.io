@@ -556,3 +556,112 @@ background-color: rgba(221, 157, 76, 1);
   letter-spacing: 0.41999998688697815px;
   color: rgba(26, 8, 0, 0.7);
 }
+.page8{
+  position: relative;
+  margin:auto;
+  width: 1440px;
+  height: 408px;
+  background-color: rgba(143, 76, 23, 0.2);
+
+}
+.page8-frame{
+  position: absolute;
+  width: 1280px;
+  height: 188px;
+  top: 120px;
+  left: 80px;
+}
+.page8-left{
+  position: absolute;
+  margin: auto;
+  width: 308px;
+  height: 168px;
+  top: -6px;
+  left: 40px;
+  font-size: 43px;
+  font-weight: 400;
+  line-height: 56px;
+  color: rgba(26, 8, 0, 1);
+}
+.page8-middle-img{
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 40px;
+  left: 467px;
+}
+.page8-middle-top-text{
+  position: absolute;
+  margin: auto;
+  width: 103px;
+  height: 28px;
+  top: 37px;
+  left: 491px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+  letter-spacing: 0.41999998688697815px;
+  color: rgba(26, 8, 0, 1);
+}
+.page8-middle-buttom-text{
+  position: absolute;
+  margin: auto;
+  width: 346px;
+  height: 109px;
+  top: 5px;
+  left: 40.34px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+  letter-spacing: 0.41999998688697815px;
+  color: rgba(26, 8, 0, 0.7);
+}
+.page8-middle{
+  position: absolute;
+  margin: auto;
+  width: 426.66px;
+  height: 108px;
+  top: 60px;
+  left: 426.66px;
+}
+.page8-right-img{
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 40px;
+  left: 893px;
+}
+.page8-right-top-text{
+  position: absolute;
+  margin: auto;
+  width: 77px;
+  height: 28px;
+  top: 37px;
+  left: 917px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+  letter-spacing: 0.41999998688697815px;
+  color: rgba(26, 8, 0, 1);
+}
+.page8-right{
+  position: absolute;
+  margin: auto;
+  width: 426.66px;
+  height: 81px;
+  top: 60px;
+  left: 853.31px;
+}
+.page8-right-buttom-text{
+  position: absolute;
+  margin: auto;
+  width: 334px;
+  height: 82px;
+  top: 5px;
+  left: 39.69px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27.2px;
+  letter-spacing: 0.42px;
+  color: rgba(26, 8, 0, 0.7);
+}
