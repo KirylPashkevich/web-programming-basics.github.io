@@ -889,5 +889,61 @@ background-color: rgba(221, 157, 76, 1);
       background: linear-gradient(45deg, #f9cddc, #d3d6db, #c4ecb3, #f3e79d);
       animation: effect 3s infinite alternate;
     }
+    .page4{
+      position: relative;
+      margin: auto;
+      width: 320px;
+      height: 590px;
+      background-color: rgba(143, 76, 23, 0.04);
+    }
+    .page4-left-img{
+      position: relative;
+      width: 270px;
+      height:256px;
+      top: 0px;
+      left: 15px
+    }
+    .page4-right{
+      position: absolute;
+      width: 320px;
+      height: 309px;
+      top:270px;
+      left: 0px;
+    }
+    .page4-top-right-text{
+      position: absolute;
+      margin-top: 0px;
+      left:0px;
+      margin-bottom: 0px;
+      width: 320px;
+      height: 110px;
+      top:-6px;
+      font-size: 36px;
+      line-height: 26px;
+      color: rgba(26, 8, 0, 1);
+    }
+    .page4-right-text{
+      position: absolute;
+      margin-top: 0px;
+      height: 140px;
+      top:100px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 27.2px;
+    }
+    .page4-botton{
+      position: absolute;
+      margin-left: auto;
+      margin-right:auto ;
+      width: 197px;
+      height: 56px;
+      top: 243px;
+      border-radius: 4px;
+      background: rgba(221, 157, 76, 1);
+    
+    
+    }
+   
+    
     
   }
