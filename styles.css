@@ -2,6 +2,9 @@
   font-family: "Roboto";
   src: url("font/Roboto/Roboto.woff");
 }
+
+
+
 @keyframes effect {
   0% {
       box-shadow: 0 0 10px #f9cddc; 
@@ -29,7 +32,6 @@ p {
   height: 56px;
   background: #DD9D4C;
   border-radius: 4px;
-  
 }
 .page3-botton{
   position: absolute;
@@ -709,4 +711,183 @@ background-color: rgba(221, 157, 76, 1);
   line-height: 22.1px;
   letter-spacing: 0.25px;
   color: rgba(255, 255, 255, 0.6);
+  }
+  @media only screen and (max-width: 320px) {
+    body{
+      margin-top: 0px;
+      margin-left: 0px;
+    }
+    .page1 {
+    margin: auto auto;
+    background-image: url(img/page1-background.png);
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 590px;
+    position: relative;
+    background-position: center;
+   }
+    .page1-top-line {
+      width: 300px;
+      height: 40px;
+      position: absolute;
+      top: 12px;
+      left: 10px;
+    }
+    .page1-top-line-left {
+      width: 129px;
+      height: 40px;
+      position: relative;
+      left: 20px;
+    }
+    .page1-top-line-right {
+      width: 76px;
+      height: 40px;
+      position: relative;
+      left: 90px;
+    }
+    .page1-middle{
+      margin: auto;
+      position: absolute;
+      width: 280px;
+      height: 200px;
+      left: 20px;
+      top: 160px;
+    }
+    .page1-middle-top-text{
+      width: 280px;
+      height: 60px;
+      margin-top: 10px;
+      margin-bottom: 0px;
+      color:white;
+      font-size: 26px;
+    }
+    .page1-middle-middle-text{
+      width: 280px;
+      height: 50px;
+      color: white;
+      font-size: 20px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    .page1-middle-bottom-text{
+      position: absolute;
+      top: 120px;
+      left: 10px;
+      width: 280px;
+      height: 113px;
+      font-size: 16px;
+      line-height: 37.4px;
+      letter-spacing: 0.42px;
+      color: white;
+      margin: 0px;
+    }
+    .page1-middle-botton{
+      position: absolute;
+      margin-left: 10%;
+      margin-right:10%;
+      top: 301px;
+      width: 197px;
+      height: 56px;
+      background: #DD9D4C;
+      border-radius: 4px;
+    }
+    .page1-middle-boton-text{
+      position: absolute;
+      left: 40px;
+      font-size: 16px;
+      line-height: 56px;
+      letter-spacing: 0.32px;
+      margin: 0px; 
+      color: white;
+    }
+    .page2{
+      position: relative;
+      margin: auto auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 320px;
+      height: 74px;
+      background-color: white;
+    }
+    .page2-1{
+      position: absolute;
+      width: 80px;
+      height: 34px;
+      top: 20px;
+      left: 10px;
+    }
+    .page2-2{
+      position: absolute;
+      height: 34px;
+      top: 20px;
+      left: 100px;
+    }
+    .page2-3{
+      position: absolute;
+      width: 80px;
+      height: 34px;
+      top: 60px;
+      left: 10px;
+    }
+    .page2-4{
+      position: absolute;
+      width: 34px;
+      height: 34px;
+      top: 60px;
+      left: 150px;
+    }
+    .page3{
+      position:relative;
+      margin-top: 20px;
+      margin: auto;
+      width: 320px;
+      height: 590px;
+      background-color:rgba(143, 76, 23, 0.08);
+    }
+    .page3-middle{
+      position: absolute;
+      width: 320px;
+      height: 209px;
+      top:20px;
+      left: 0px;
+    }
+    .page3-middle-top-text{
+      position: absolute;
+      width: 285px;
+      height: 112px;
+      top: -6px;
+      font-size: 26px;
+      line-height: 36px;
+      color:black;
+      margin: 0;
+    }
+    .page3-middle-text{
+      position: absolute;
+      margin-left: 0;
+      margin: 0;
+      width: 300px;
+      height: 82px;
+      top: 70px;
+      size:16px;
+      line-height: 25px;
+      letter-spacing: 0.42px;
+      color:  rgba(26, 8, 0, 0.7);
+    }
+    .page3-img{
+      position: absolute;
+      width: 300px;
+      height: 200px;
+      top:305px;
+      left:10px;
+      border-radius: 8px;
+    }
+    .page3-botton{
+      position: absolute;
+      width: 197px;
+      height: 56px;
+      top: 200px;
+      background: linear-gradient(45deg, #f9cddc, #d3d6db, #c4ecb3, #f3e79d);
+      animation: effect 3s infinite alternate;
+    }
+    
   }
