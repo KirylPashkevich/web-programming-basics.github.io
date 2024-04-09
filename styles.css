@@ -940,10 +940,123 @@ background-color: rgba(221, 157, 76, 1);
       top: 243px;
       border-radius: 4px;
       background: rgba(221, 157, 76, 1);
-    
-    
     }
-   
+.page5{
+  position: relative;
+  margin: auto;
+  width: 320px;
+  height: 682px;
+  background-color:rgba(143, 76, 23, 0.08);
+}
+.page5-left{
+  position: absolute;
+  width: 320px;
+  height: 282px;
+  top:20px;
+  left: 0px;
+}
+.page5-left-top-text{
+  position: absolute;
+  margin-top: 0px;
+  width: 300px;
+  height: 112px;
+  top:-6px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 26px;
+  color: rgba(26, 8, 0, 1);
+}
+.page5-left-middle-text{
+  position: absolute;
+  margin-top: 0px;
+  width: 320px;
+  height: 55px;
+  top:60px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 10px;
+  letter-spacing: 0.42px;
+  color: rgba(26, 8, 0, 0.7);
+}
+  .page5-botton{
+  position: absolute;
+  width: 197px;
+  height: 56px;
+  top: 120px;
+  border-radius: 4px;
+  background-color: rgba(221, 157, 76, 1);
+  }
+  .page5-right{
+    position: absolute;
+    width: 320px;
+    height: 400px;
+    top: 220px;
+    left: 0px;
+    border-radius: 8px 0px 0px 0px;
+  }
     
-    
+.page6{
+  position: relative;
+  width: 320px;
+  height: 590px;
+  margin: auto;
+  background-color: rgba(249, 246, 243, 1);
+}
+.page6-left{
+  position: absolute;
+  left: 20px;
+  width: 300px;
+  height: 250px;
+}
+.page6-right{
+  position: absolute;
+  width: 310px;
+  height: 309px;
+  top: 210px;
+  left: 10px;
+}
+.page6-right-top-text{
+  position: absolute;
+  margin: 0px;
+  margin-right: 10px;
+  width: 300px;
+  height: 100px;
+  top: 40px;
+  font-weight: 400;
+  font-size:36px;
+  line-height: 30px;
+  color: rgba(26, 8, 0, 1);
+}
+.page6-right-middle-text{
+  position: absolute;
+  margin:0;
+  height: 82px;
+  width: 300px;
+  top:137px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height:22px;
+  letter-spacing: 0.42px;
+}
+.page6-botton{
+  position: absolute;
+  width: 197px;
+  height: 56px;
+  top: 253px;
+  border-radius: 4px;
+  background-color: rgba(221, 157, 76, 1);
+  
+}
+.page6-botton-text{
+  position: absolute;
+  margin: auto;
+  width: 127px;
+  height: 56px;
+  left: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 56px;
+  letter-spacing: 0.32px;
+  color: rgba(255, 255, 255, 1);
+}
   }
