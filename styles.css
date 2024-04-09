@@ -1031,7 +1031,7 @@ background-color: rgba(221, 157, 76, 1);
   position: relative;
   margin: auto;
   width: 320px;
-  height: 1500px;
+  height: 1000px;
 }
 .page7-center{
   position: absolute;
@@ -1052,7 +1052,7 @@ background-color: rgba(221, 157, 76, 1);
 .page7-down{
   position: absolute;
   width: 320px;
-  height: 900px;
+  height: 800px;
   top:160px;
   left: 0px;
 }
@@ -1152,4 +1152,70 @@ background-color: rgba(221, 157, 76, 1);
   left: 30px;
   font-size: 14px;
       }
+      
+.page8{
+  position: relative;
+  margin:auto;
+  width: 320px;
+  height: 600px;
+}
+.page8-frame{
+  position: absolute;
+  width: 310px;
+  height: 300px;
+  top: 20px;
+  left: 10px;
+}
+.page8-left{
+  width: 308px;
+  height: 168px;
+  top: 0px;
+  left: 0px;
+}
+.page8-middle-img{
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 180px;
+  left: 20px;
+}
+.page8-middle-top-text{
+  width: 103px;
+  height: 28px;
+  top: 200px;
+  left: 20px;
+}
+.page8-middle-buttom-text{
+  width: 310px;
+  height: 109px;
+  top: 5px;
+  left: 0px;
+}
+.page8-middle{
+  width: 310px;
+  height: 108px;
+  top: 230px;
+  left: 0px;
+}
+.page8-right-img{
+  top: 360px;
+  left: 20px;
+}
+.page8-right-top-text{
+  top: 380px;
+  left: 20px;
+  font-size: 16px;
+}
+.page8-right{
+  width: 310px;
+  height: 81px;
+  top: 410px;
+  left: 0px;
+}
+.page8-right-buttom-text{
+  width: 310px;
+  height: 82px;
+  top: 0px;
+  left: 0px;
+}
   }
