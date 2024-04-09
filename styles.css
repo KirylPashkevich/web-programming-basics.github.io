@@ -719,7 +719,6 @@ background-color: rgba(221, 157, 76, 1);
     }
     .page1 {
     margin: auto auto;
-    background-image: url(img/page1-background.png);
     background-repeat: no-repeat;
     width: 320px;
     height: 590px;
@@ -758,13 +757,11 @@ background-color: rgba(221, 157, 76, 1);
       height: 60px;
       margin-top: 10px;
       margin-bottom: 0px;
-      color:white;
       font-size: 26px;
     }
     .page1-middle-middle-text{
       width: 280px;
       height: 50px;
-      color: white;
       font-size: 20px;
       margin-top: 0px;
       margin-bottom: 0px;
@@ -778,7 +775,6 @@ background-color: rgba(221, 157, 76, 1);
       font-size: 16px;
       line-height: 37.4px;
       letter-spacing: 0.42px;
-      color: white;
       margin: 0px;
     }
     .page1-middle-botton{
@@ -788,8 +784,6 @@ background-color: rgba(221, 157, 76, 1);
       top: 301px;
       width: 197px;
       height: 56px;
-      background: #DD9D4C;
-      border-radius: 4px;
     }
     .page1-middle-boton-text{
       position: absolute;
@@ -798,7 +792,6 @@ background-color: rgba(221, 157, 76, 1);
       line-height: 56px;
       letter-spacing: 0.32px;
       margin: 0px; 
-      color: white;
     }
     .page2{
       position: relative;
@@ -807,7 +800,6 @@ background-color: rgba(221, 157, 76, 1);
       margin-bottom: 20px;
       width: 320px;
       height: 74px;
-      background-color: white;
     }
     .page2-1{
       position: absolute;
@@ -842,7 +834,6 @@ background-color: rgba(221, 157, 76, 1);
       margin: auto;
       width: 320px;
       height: 590px;
-      background-color:rgba(143, 76, 23, 0.08);
     }
     .page3-middle{
       position: absolute;
@@ -858,7 +849,6 @@ background-color: rgba(221, 157, 76, 1);
       top: -6px;
       font-size: 26px;
       line-height: 36px;
-      color:black;
       margin: 0;
     }
     .page3-middle-text{
@@ -871,7 +861,6 @@ background-color: rgba(221, 157, 76, 1);
       size:16px;
       line-height: 25px;
       letter-spacing: 0.42px;
-      color:  rgba(26, 8, 0, 0.7);
     }
     .page3-img{
       position: absolute;
@@ -886,15 +875,12 @@ background-color: rgba(221, 157, 76, 1);
       width: 197px;
       height: 56px;
       top: 200px;
-      background: linear-gradient(45deg, #f9cddc, #d3d6db, #c4ecb3, #f3e79d);
-      animation: effect 3s infinite alternate;
     }
     .page4{
       position: relative;
       margin: auto;
       width: 320px;
       height: 590px;
-      background-color: rgba(143, 76, 23, 0.04);
     }
     .page4-left-img{
       position: relative;
@@ -919,17 +905,15 @@ background-color: rgba(221, 157, 76, 1);
       height: 110px;
       top:-6px;
       font-size: 36px;
-      line-height: 26px;
-      color: rgba(26, 8, 0, 1);
+      line-height: 36px;
     }
     .page4-right-text{
       position: absolute;
       margin-top: 0px;
       height: 140px;
-      top:100px;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 27.2px;
+      top:140px;
+      font-size: 16px;
+      line-height: 17.2px;
     }
     .page4-botton{
       position: absolute;
@@ -938,15 +922,12 @@ background-color: rgba(221, 157, 76, 1);
       width: 197px;
       height: 56px;
       top: 243px;
-      border-radius: 4px;
-      background: rgba(221, 157, 76, 1);
     }
 .page5{
   position: relative;
   margin: auto;
   width: 320px;
   height: 682px;
-  background-color:rgba(143, 76, 23, 0.08);
 }
 .page5-left{
   position: absolute;
@@ -964,27 +945,22 @@ background-color: rgba(221, 157, 76, 1);
   font-weight: 400;
   font-size: 26px;
   line-height: 26px;
-  color: rgba(26, 8, 0, 1);
 }
 .page5-left-middle-text{
   position: absolute;
-  margin-top: 0px;
+  margin-top: -5px;
   width: 320px;
   height: 55px;
   top:60px;
   font-weight: 400;
-  font-size: 11px;
-  line-height: 10px;
-  letter-spacing: 0.42px;
-  color: rgba(26, 8, 0, 0.7);
+  font-size: 17px;
+  line-height: 15px;
 }
   .page5-botton{
   position: absolute;
   width: 197px;
   height: 56px;
   top: 120px;
-  border-radius: 4px;
-  background-color: rgba(221, 157, 76, 1);
   }
   .page5-right{
     position: absolute;
@@ -992,7 +968,6 @@ background-color: rgba(221, 157, 76, 1);
     height: 400px;
     top: 220px;
     left: 0px;
-    border-radius: 8px 0px 0px 0px;
   }
     
 .page6{
@@ -1000,7 +975,6 @@ background-color: rgba(221, 157, 76, 1);
   width: 320px;
   height: 590px;
   margin: auto;
-  background-color: rgba(249, 246, 243, 1);
 }
 .page6-left{
   position: absolute;
@@ -1022,10 +996,8 @@ background-color: rgba(221, 157, 76, 1);
   width: 300px;
   height: 100px;
   top: 40px;
-  font-weight: 400;
   font-size:36px;
   line-height: 30px;
-  color: rgba(26, 8, 0, 1);
 }
 .page6-right-middle-text{
   position: absolute;
@@ -1043,9 +1015,6 @@ background-color: rgba(221, 157, 76, 1);
   width: 197px;
   height: 56px;
   top: 253px;
-  border-radius: 4px;
-  background-color: rgba(221, 157, 76, 1);
-  
 }
 .page6-botton-text{
   position: absolute;
@@ -1056,7 +1025,131 @@ background-color: rgba(221, 157, 76, 1);
   font-weight: 400;
   font-size: 16px;
   line-height: 56px;
-  letter-spacing: 0.32px;
-  color: rgba(255, 255, 255, 1);
 }
+
+.page7{
+  position: relative;
+  margin: auto;
+  width: 320px;
+  height: 1500px;
+}
+.page7-center{
+  position: absolute;
+  width: 310px;
+  height: 491px;
+  top: 25px;
+  left: 0px;
+}
+.page7-top{
+  position: absolute;
+  margin: auto;
+  width: 320px;
+  height: 174px;
+  font-size: 36px;
+  line-height: 38px;
+  text-align: center;
+}
+.page7-down{
+  position: absolute;
+  width: 320px;
+  height: 900px;
+  top:160px;
+  left: 0px;
+}
+.page7-down-left{
+  position: absolute;
+  width: 320px;
+  height: 219px;
+}
+.page7-down-middle{
+  position: absolute;
+  width: 320px;
+  height: 219px;
+  top: 260px;
+  left: 0px;
+}
+.page7-down-right{
+  position: absolute;
+  width: 320px;
+  height: 219px;
+  top:530px;
+  left: 0px;
+}
+.page7-down-left-img{
+  position: absolute;
+  width: 52px;
+  height: 60px;
+  left: 30px;
+}
+.page7-down-left-top-text{
+  position: absolute;
+  margin: auto;
+  width: 125px;
+  height: 28px;
+  top: 84px;
+  left: 30px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.page7-down-left-bottom-text{
+  position: absolute;
+  margin:auto;
+  width: 290px;
+  height: 130px;
+  top: 116px;
+  left: 30px;
+  font-size: 14px;
+}
+.page7-down-middle-img{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 30px;
+}
+.page7-down-middle-top-text{
+  position: absolute;
+  margin: auto;
+  width: 143px;
+  height: 28px;
+  top: 83px;
+  left: 30px;
+  font-size: 14px;
+}
+.page7-down-middle-bottom-text{
+  position: absolute;
+  margin: auto;
+  width: 280px;
+  height: 109px;
+  top: 116px;
+  left: 30px;
+  font-size: 14px;
+}
+.page7-down-right-img{
+  position: absolute;
+  width: 72px;
+  height: 60px;
+  left: 30px;
+}
+.page7-down-right-top-text{
+  position: absolute;
+  margin: auto;
+  width: 250px;
+  height: 28px;
+  top: 84px;
+  left: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27.2px;
+  letter-spacing: 0.41999998688697815px;
+  color: rgba(26, 8, 0, 1);
+}
+.page7-down-right-bottom-text{
+  position: absolute;
+  margin:auto;
+  width: 280px;
+  height: 109px;
+  top: 116px;
+  left: 30px;
+  font-size: 14px;
+      }
   }
