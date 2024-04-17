@@ -24,6 +24,7 @@ h6,
 span,
 p {
   font-family: "Roboto";
+  font-weight: 400;
 }
 .page1-middle-botton{
   position: absolute;
@@ -61,23 +62,29 @@ p {
   position: relative;
 }
 .page1-top-line {
+  top: 120px;
+  left: 80px;
+  display: flex;
+  justify-content: space-between;
   width: 1280px;
   height: 40px;
   position: absolute;
-  top: 120px;
-  left: 80px;
+
 }
 .page1-top-line-left {
+
   width: 129px;
   height: 40px;
-  position: relative;
+  position: absolute;
   left: 40px;
 }
 .page1-top-line-right {
+
   width: 76px;
   height: 40px;
-  position: relative;
-  left: 1031px;
+  position: absolute;
+  /* left: 1031px; */
+  left: 1164px;
 }
 .page1-middle{
   position: absolute;
@@ -1243,3 +1250,179 @@ background-color: rgba(221, 157, 76, 1);
   top: 88px;
 }
   }
+  @media screen and (min-width: 321px) and (max-width: 768px) {
+    body {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .page1{
+      width: 768px;
+    }
+    .page1-top-line{
+      width: 650px;
+    }
+    .page1-top-line-right{
+      left: 500px;
+    }
+    .page1-middle{
+      left: 20px;
+    }
+    .page2{
+      width: 768px;
+    }
+    .page2-1{
+      left: 50px;
+    }
+    .page2-2{
+      left: 250px;
+    }
+    .page2-3{
+      left: 500px;
+    }
+    .page2-4{
+      left:650px;
+    }
+    .page3{
+      width: 768px;
+      height: 910px;
+    }
+    .page3-img{
+      left: 30px;
+      top:400px;
+    }
+    .page3-middle{
+      top:50px;
+      left:20px;
+    }
+    .page4{
+      width: 768px;
+      height: 1050px;
+    }
+    .page4-left-img{
+      width: 600px;
+      height: 700px;
+    }
+    .page4-right{
+      left: 20px;
+      top: 700px;
+    }
+    .page5{
+      width: 768px;
+      height: 750px;
+    }
+    .page5-left{
+      top:450px;
+      width: 420px;
+      left:50px
+    }
+    .page5-left-middle-text{
+      width: 400px;
+      font-size: 20px; 
+    }
+    .page5-right{
+      width: 500px;
+      height: 400px;
+      top:20px;
+      left:20px;
+    }
+    .page6{
+      width: 768px;
+      height: 400px;
+    }
+    .page6-left{
+      left: -10px;
+      width: 400px;
+      height: 300px;
+    }
+    .page6-right{
+      left: 400px;
+      height: 400px;
+      width: 300px;
+      top: 20px;
+    }
+    .page6-right-top-text{
+      width: 300px;
+      height: 160px;
+    }
+    .page6-right-middle-text{
+      top: 160px;
+      width: 300px;
+      height: 100px;
+      font-size: 18px;
+      line-height:normal;
+    }
+    .page6-botton{
+      top: 280px
+    }
+    .page7{
+      width: 768px;
+      height: 850px;
+    }
+    .page7-center{
+      left:20px;
+      width: 748px;
+    }
+    .page7-top{
+      left: 120px
+    }
+    .page7-down{
+      height: 450px ;
+      width: 768px;
+    }
+    .page7-down-left{
+      width: 400px;
+    }
+    .page7-down-middle{
+      left:400px;
+      width: 380px;
+    }
+    .page7-down-right{
+      top:225px;
+      left:200px;
+    }
+    .page8{
+      width: 768px;
+      height: 200px;
+    }
+    .page8-frame{
+      top:10px;
+      left:20px;
+      width: 728px;
+      height: 180px;
+    }
+    .page8-left{
+      width: 740px;
+      height: 50px;
+      left:10px;
+      font-size: 38px;
+    }
+    .page8-middle-img{
+      left:30px;
+      top:50px;
+    }
+    .page8-middle-top-text{
+      top:48px;
+      left:60px;
+    }
+    .page8-middle{
+      top:70px;
+      left:00px;
+    }
+    .page8-right-img{
+      left:410px;
+      top:50px;
+    }
+    .page8-right-top-text{
+      top:47px;
+      left:435px;
+    }
+    .page8-right{
+      width: 380px;
+      top:70px;
+      left:370px;
+    }
+    .page9{
+      width: 768px;
+    }
+  }
+  
