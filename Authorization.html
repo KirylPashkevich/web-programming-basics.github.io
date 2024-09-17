@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Register</title>
+        <link
+            rel="stylesheet"
+            href="css/AuthStyles.css"
+            type="text/css"
+        />
+        <link rel="icon" type="image/png" href="../Pictures/Favicon/Key.svg" />
+    </head>
+    <body class="to-change-frame">
+        <div class="wrapper">
+            <div class="container">
+                <div class="auth-left to-change-frame">
+                    <div class="auth-left-content">
+                        <span class="auth-left-company to-change-text"
+                            >RUBYHOME.COM</span
+                        >
+                        <span class="auth-left-desc to-change-text"
+                            >Here at RUBYHOME, we value all new future
+                            customers, as well as their privacy. Please, don't
+                            use weak passwords.</span
+                        >
+
+                        <div class="footer-content-text-buttons">
+                            <button
+                                class="footer-content-text-button-language to-change-text to-change-button"
+                            >
+                                Change language
+                            </button>
+                            <button
+                                class="footer-content-text-button-theme to-change-text to-change-button"
+                            >
+                                Change theme
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="auth-frame">
+                    <div class="login to-change-frame">
+                        <p class="login-introduction to-change-text">
+                            Welcome to RUBYHOME. Feel free to check out
+                            our full webpage after registering. Please, proceed
+                            with entering your nickname and password and enjoy
+                            everything we have to offer.
+                        </p>
+                        <button id="to-register" class="to-change-text">
+                            Or did you mean to register?
+                        </button>
+                        <div class="login-form">
+                            <label
+                                class="auth-frame-login-nickname to-change-text"
+                            >
+                                Nickname
+                            </label>
+                            <input
+                                type="text"
+                                maxlength="20"
+                                id="l-nickname"
+                                class="register-input"
+                            />
+
+                            <label
+                                class="auth-frame-login-password to-change-text"
+                            >
+                                Password
+                            </label>
+                            <input
+                                type="password"
+                                maxlength="20"
+                                id="l-pass"
+                                class="register-input"
+                            />
+                        </div>
+                    </div>
+
+                    <div class="register to-change-frame">
+                        <p class="register-introduction to-change-text">
+                            Welcome to RUBYHOME. Fill out this form and
+                            be a new awesome user of our platform with more
+                            content awaiting you.
+                        </p>
+                        <button id="to-login" class="to-change-text">
+                            Or did you mean to log in?
+                        </button>
+                        <div class="register-input-validate">
+                            <label
+                                class="register-label to-change-text"
+                                id="register-label-phone"
+                                >Phone</label
+                            >
+                            <input
+                                type="text"
+                                maxlength="12"
+                                class="register-input"
+                                id="r-phone"
+                            />
+                            <img
+                                src="../Pictures/Utilities/Error.svg"
+                                class="error-icon"
+                                alt=""
+                                id="e-phone"
+                            />
+                            <div
+                                class="register-visible-error to-change-text"
+                                id="register-error-phone"
+                            >
+                                123
+                            </div>
+                        </div>
+
+                        <div class="register-input-validate">
+                            <label
+                                class="register-label to-change-text"
+                                id="register-label-email"
+                                >Email</label
+                            >
+                            <input
+                                type="email"
+                                maxlength="25"
+                                class="register-input"
+                                id="r-email"
+                            />
+                            <img
+                                src="../Pictures/Utilities/Error.svg"
+                                class="error-icon"
+                                alt=""
+                                id="e-email"
+                            />
+                            <div
+                                class="register-visible-error to-change-text"
+                                id="register-error-email"
+                            >
+                                123
+                            </div>
+                        </div>
+
+                        <div class="register-input-validate">
+                            <label
+                                class="register-label to-change-text"
+                                id="register-label-birth"
+                                >Date of birth</label
+                            >
+                            <input
+                                type="date"
+                                class="register-input"
+                                id="r-birth"
+                            />
+                            <img
+                                src="../Pictures/Utilities/Error.svg"
+                                class="error-icon"
+                                alt=""
+                                id="e-birth"
+                            />
+                            <div
+                                class="register-visible-error to-change-text"
+                                id="register-error-birth"
+                            >
+                                123
+                            </div>
+                        </div>
+
+                        <div class="register-input-validate">
+                            <div
+                                style="
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 3px;
+                                "
+                            >
+                                <label
+                                    class="register-label to-change-text"
+                                    id="register-label-pass"
+                                    >Password</label
+                                >
+                                <input
+                                    type="password"
+                                    maxlength="20"
+                                    class="register-input"
+                                    id="r-pass"
+                                />
+                                <div
+                                    class="register-visible-error to-change-text"
+                                    id="register-error-pass"
+                                >
+                                    123
+                                </div>
+                                <button id="rnd-pass" class="to-change-button">
+                                    Generate
+                                </button>
+                                <img
+                                    src="../Pictures/Utilities/Error.svg"
+                                    class="error-icon"
+                                    alt=""
+                                    id="e-pass"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="register-input-validate">
+                            <label
+                                class="register-label to-change-text"
+                                id="register-label-pass-confirm"
+                                >Confirm password</label
+                            >
+                            <input
+                                type="password"
+                                maxlength="20"
+                                class="register-input"
+                                id="r-pass-confirm"
+                            />
+                            <img
+                                src="../Pictures/Utilities/Error.svg"
+                                class="error-icon"
+                                alt=""
+                                id="e-pass-confirm"
+                            />
+                            <div
+                                class="register-visible-error to-change-text"
+                                id="register-error-pass-confirm"
+                            >
+                                123
+                            </div>
+                        </div>
+
+                        <div class="register-input-validate">
+                            <label
+                                class="register-label to-change-text"
+                                id="register-label-first-name"
+                                >First name</label
+                            >
+                            <input
+                                type="text"
+                                maxlength="20"
+                                class="register-input"
+                                id="r-first-name"
+                            />
+                            <img
+                                src="../Pictures/Utilities/Error.svg"
+                                class="error-icon"
+                                alt=""
+                                id="e-first-name"
+                            />
+                            <div
+                                class="register-visible-error to-change-text"
+                                id="register-error-first-name"
+                            >
+                                123
+                            </div>
+                        </div>
+
+                        <div class="register-input-validate">
+                            <label
+                                class="register-label to-change-text"
+                                id="register-label-last-name"
+                                >Last name</label
+                            >
+                            <input
+                                type="text"
+                                maxlength="20"
+                                class="register-input"
+                                id="r-last-name"
+                            />
+                            <img
+                                src="../Pictures/Utilities/Error.svg"
+                                class="error-icon"
+                                alt=""
+                                id="e-last-name"
+                            />
+                            <div
+                                class="register-visible-error to-change-text"
+                                id="register-error-last-name"
+                            >
+                                123
+                            </div>
+                        </div>
+
+                        <div class="register-input-validate">
+                            <label
+                                class="register-label to-change-text"
+                                id="register-label-patronymic"
+                                >Patronymic (optional)</label
+                            >
+                            <input
+                                type="text"
+                                maxlength="20"
+                                class="register-input"
+                                id="r-patronymic"
+                            />
+                            <img
+                                src="../Pictures/Utilities/Error.svg"
+                                class="error-icon"
+                                alt=""
+                                id="e-patronymic"
+                            />
+                            <div
+                                class="register-visible-error to-change-text"
+                                id="register-error-patronymic"
+                            >
+                                123
+                            </div>
+                        </div>
+
+                        <div class="register-input-validate">
+                            <div
+                                style="
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 3px;
+                                "
+                            >
+                                <label
+                                    class="register-label to-change-text"
+                                    id="register-label-nickname"
+                                    >Nickname</label
+                                >
+                                <input
+                                    type="text"
+                                    maxlength="20"
+                                    class="register-input"
+                                    id="r-nickname"
+                                />
+                                <div
+                                    class="register-visible-error to-change-text"
+                                    id="register-error-nickname"
+                                >
+                                    123
+                                </div>
+                                <button
+                                    id="rnd-nickname"
+                                    class="to-change-button"
+                                >
+                                    Generate
+                                </button>
+                                <img
+                                    src="../Pictures/Utilities/Error.svg"
+                                    class="error-icon"
+                                    alt=""
+                                    id="e-nickname"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="register-input-validate">
+                            <label
+                                class="register-label to-change-text"
+                                id="register-label-tac"
+                                >I have read the terms and conditions</label
+                            >
+                            <input type="checkbox" id="r-checkbox" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="auth-right to-change-frame">
+                    <button
+                        class="auth-right-button to-change-important-button"
+                        id="button-to-register"
+                    >
+                        Register
+                    </button>
+                    <button
+                        class="auth-right-button to-change-important-button"
+                        id="button-to-login"
+                    >
+                        Login
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <script defer src="/js/RegistrationTemp.js"></script>
+        <script defer src="/js/SwitchAuthorization.js"></script>
+        <script defer src="js/Login.js"></script>
+        <script defer src="js/ThemeAuth.js"></script>
+
+        <script defer src="js/AuthTranslation.js"></script>
+    </body>
+</html>
