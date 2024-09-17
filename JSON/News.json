@@ -1,0 +1,22 @@
+{
+    "0": {
+        "header": "RUBYHome with you",
+        "text": "Leading real estate agency in Europe. We serve our clients in the best way",
+        "picture": "../images/car.svg"
+    },
+    "1": {
+        "header": "RUBYHOME experience",
+        "text": "We have been in the real estate market for more than 15 years. We have more than ten thousand completed orders. We have worked with famous and influential people",
+        "picture": "../images/house1.png"
+    },
+    "2": {
+        "header": "RUBYHOME terms of cooperation",
+        "text": "We work with various clients from different countries. To work with us, you must contact us and provide your real estate preferences. We will contact you and help you find solutions that suit you and fit your budget. Every client is important to our company The project aims to set a new standard for sustainable development.",
+        "picture": "../images/house1.png"
+    },
+    "3": {
+        "header": "RUBYHOME protection of rights",
+        "text": "We value your time and therefore, at the beginning of cooperation with you, we are given an agreement to sign, coordinating our and your obligations in cooperation. By signing the agreement you receive a guarantee of saving your money",
+        "picture": "../images/house1.png"
+    }
+}
