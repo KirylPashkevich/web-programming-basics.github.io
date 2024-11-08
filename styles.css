@@ -14,7 +14,141 @@
   }
 }
 
-
+@keyframes my-animation {
+  from {
+      transform: translateY(40px);
+  }
+  to {
+      transform: translateY(0px);
+  }
+}
+@keyframes pulse {
+  0% {
+      opacity: 0;
+  }
+  50% {
+      transform: scale(1.4);
+      opacity: 0.4;
+  }
+}
+@keyframes rotate-animation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes skew-animation {
+  from{
+    transform: skew(-20deg);
+  }
+  to{
+    transform: skew(20deg);
+  }
+}
+@keyframes blur-animation{
+  0%{
+    filter: blur(2);
+  }
+  100%{
+    filter:blur(10px);
+  }
+}
+@keyframes fadeAndChangeBorder {
+  0% {
+    opacity: 1;
+    background-color: red;
+  }
+  50% {
+    opacity: 0.5;
+    background-color: green;
+  }
+  100% {
+    opacity: 0;
+    background-color: blue;
+  }
+}
+@keyframes blinkAnimation {
+  0%, 100% {
+    background-color: #FFFFFF; 
+    transform: scale(1); 
+  }
+  50% {
+    background-color: #0000FF; 
+    transform: scale(1.5); 
+  }
+}
+@keyframes pulseHeight {
+  0%, 100% {
+    height: 50px; 
+  }
+  50% {
+    height: 100px; 
+  }
+}
+@keyframes smoothWidthChange {
+  0% {
+    width: 100px; 
+  }
+  50% {
+    width: 200px; 
+  }
+  100% {
+    width: 100px; 
+  }
+}
+@keyframes moveDown {
+  0% {
+    top: 0; 
+  }
+  100% {
+    top: 250px; 
+  }
+}
+@keyframes colorFade {
+  0% {
+    background-color: #FFD700; 
+  }
+  100% {
+    background-color: #ADFF2F; 
+  }
+}
+@keyframes resizeAndFade {
+  0% {
+    width: 500px;
+    height: 100px;
+    opacity: 1;
+  }
+  50% {
+    width: 450px;
+    height: 150px;
+    opacity: 0.5;
+  }
+  100% {
+    width: 300px;
+    height: 100px;
+    opacity: 1;
+  }
+}
+@keyframes borderThrob {
+  0%, 100% {
+    border-width: 1px; 
+  }
+  50% {
+    border-width: 10px; 
+  }
+}
+@keyframes fadeAndMove {
+  0% {
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+  100% {
+    opacity: 0; 
+    transform: translateY(50px); 
+  }
+}
 h1,
 h2,
 h3,
@@ -33,6 +167,7 @@ p {
   height: 56px;
   background: #DD9D4C;
   border-radius: 4px;
+  animation: my-animation 0.5s infinite alternate;
 }
 .page3-botton{
   position: absolute;
@@ -77,6 +212,7 @@ p {
   height: 40px;
   position: absolute;
   left: 40px;
+  animation: rotate-animation 3s infinite alternate;
 }
 .page1-top-line-right {
 
@@ -85,6 +221,7 @@ p {
   position: absolute;
   /* left: 1031px; */
   left: 1164px;
+  animation: skew-animation 2s infinite alternate;
 }
 .page1-middle{
   position: absolute;
@@ -152,12 +289,14 @@ p {
   height: 34px;
   top: 20px;
   left: 298px;
+  animation: blur-animation 1s infinite alternate;
 }
 .page2-2{
   position: absolute;
   height: 34px;
   top: 20px;
   left: 458px;
+  animation:fadeAndChangeBorder 5s infinite alternate ;
 }
 .page2-3{
   position: absolute;
@@ -165,6 +304,7 @@ p {
   height: 34px;
   top: 20px;
   left: 709px;
+  animation: blinkAnimation 2s ease-in-out infinite;
 }
 .page2-4{
   position: absolute;
@@ -172,6 +312,7 @@ p {
   height: 34px;
   top: 20px;
   left: 869px;
+  animation: pulseHeight 3s ease-in-out infinite;
 }
 .page3{
   position:relative;
@@ -247,6 +388,7 @@ p {
   font-size: 45px;
   line-height: 56px;
   color: rgba(26, 8, 0, 1);
+  animation: colorFade 3s ease-in;
 }
 .page4-right-text{
   position: absolute;
@@ -265,7 +407,7 @@ p {
   top: 253px;
   border-radius: 4px;
   background: rgba(221, 157, 76, 1);
-
+  animation: pulse 3s infinite alternate;
 
 }
 .page4-botton-text{
@@ -324,6 +466,7 @@ height: 56px;
 top: 226px;
 border-radius: 4px;
 background-color: rgba(221, 157, 76, 1);
+animation: smoothWidthChange 3s cubic-bezier(0.25, 0.1, 0.25, 1.0) infinite;
 
 }
 .page5-botton-text{
@@ -395,7 +538,7 @@ background-color: rgba(221, 157, 76, 1);
   top: 253px;
   border-radius: 4px;
   background-color: rgba(221, 157, 76, 1);
-  
+  animation: moveDown 3s ease-out forwards;
 }
 .page6-botton-text{
   position: absolute;
@@ -415,7 +558,6 @@ background-color: rgba(221, 157, 76, 1);
   width: 1440px;
   height: 749px;
   background-color: rgba(253, 252, 251, 1);
-  ;
 }
 .page7-center{
   position: absolute;
@@ -433,7 +575,9 @@ background-color: rgba(221, 157, 76, 1);
   font-weight: 400;
   font-size: 50px;
   line-height: 58px;
-  color: rgba(26, 8, 0, 1)
+  color: rgba(26, 8, 0, 1);
+  animation: resizeAndFade 4s  infinite;
+
 }
 .page7-down{
   position: absolute;
@@ -464,6 +608,7 @@ background-color: rgba(221, 157, 76, 1);
   width: 52px;
   height: 60px;
   left: 40px;
+ animation: pulseHeight 3s ease-in infinite ; 
 }
 .page7-down-left-top-text{
   position: absolute;
@@ -497,6 +642,7 @@ background-color: rgba(221, 157, 76, 1);
   width: 60px;
   height: 60px;
   left: 40.34px;
+  animation: fadeAndMove 3s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
 }
 .page7-down-middle-top-text{
   position: absolute;
@@ -530,6 +676,7 @@ background-color: rgba(221, 157, 76, 1);
   width: 72px;
   height: 60px;
   left: 39.69px;
+  animation: smoothWidthChange 3s infinite;
 }
 .page7-down-right-top-text{
   position: absolute;
@@ -1121,6 +1268,8 @@ background-color: rgba(221, 157, 76, 1);
   top: 83px;
   left: 30px;
   font-size: 14px;
+
+
 }
 .page7-down-middle-bottom-text{
   position: absolute;
@@ -1425,4 +1574,122 @@ background-color: rgba(221, 157, 76, 1);
       width: 768px;
     }
   }
+
   
+  .menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 250px;
+    height: 100%;
+    background: #333;
+    transition: left 0.3s;
+    z-index: 2;
+  }
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .menu li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid #444;
+  }
+  .menu li a:hover {
+    background: #444;
+  }
+  .menu-btn {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .menu-btn span,
+  .menu-btn:before,
+  .menu-btn:after {
+    content: '';
+    display: block;
+    background: #333;
+    height: 5px;
+    width: 35px;
+    margin: 6px 0;
+    transition: 0.3s;
+  }
+  .menu-btn.active:before {
+    transform: translateY(11px) rotate(135deg);
+  }
+  .menu-btn.active:after {
+    transform: translateY(-11px) rotate(-135deg);
+  }
+  .menu-btn.active span {
+    opacity: 0;
+  }
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .overlay.active {
+    display: block;
+    opacity: 1;
+  }
+
+
+  .page10{
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+  }
+
+  
+.slider-container {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: white;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
